@@ -1,0 +1,7 @@
+#about {
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+#flexSwitchCheckDefault {
+    cursor: pointer;
+}
