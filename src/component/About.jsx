@@ -27,7 +27,7 @@ export const About = () => {
 
   return (
     <>
-      <div id="about" className="container py-1" style={myStyle}>
+      <div id="about" className="container py-1 my-4" style={myStyle}>
         <h1 className="my-4">About Us</h1>
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">

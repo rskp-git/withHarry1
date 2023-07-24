@@ -15,7 +15,7 @@ export const TextForm = (props) => {
 
   return (
     <> 
-      <div className=" container">
+      <div className=" container my-4">
         <h1 style={{ color: props.mode === "light" ? "black" : "white" }}>
           {props.heading}
         </h1>
