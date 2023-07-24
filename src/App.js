@@ -32,7 +32,7 @@ function App() {
       document.body.style.backgroundColor = "white";
       showAlert("Light Mode has been enabled", "success");
     }
-    
+
   };
   return (
     <>
@@ -40,7 +40,7 @@ function App() {
         <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <Routes>
-          <Route path="about" element={<About />} />
+          <Route path="about" element={<About mode={mode} />} />
           <Route
             path="/"
             element={

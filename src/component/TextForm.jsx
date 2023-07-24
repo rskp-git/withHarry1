@@ -30,7 +30,7 @@ export const TextForm = (props) => {
           onChange={handleOnchange}
           rows="8"
         ></textarea>
-        <button className="btn btn-success my-3" onClick={handleClick}>
+        <button className="btn btn-success my-3 mx-3" onClick={handleClick}>
           Convert to UpperCase
         </button>
       </div>
@@ -40,7 +40,8 @@ export const TextForm = (props) => {
       >
         <h1>Your text summary</h1>
         <p>
-          {text.split(" ").length} word and {text.length} letters
+          {text.split(" ").filter((element) => 
+          {return element.length!==0}).length} word and {text.length} letters
         </p>
 
         <h2>Preview</h2>

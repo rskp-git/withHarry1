@@ -39,7 +39,7 @@ export const Navbar = (props) => {
                   </Link>
                 </li>
               </ul>
-              <form className="d-flex" role="search">
+              {/* <form className="d-flex" role="search">
                 <input
                   className="form-control me-2"
                   type="search"
@@ -49,7 +49,7 @@ export const Navbar = (props) => {
                 <button className="btn btn-outline-primary" type="submit">
                   Search
                 </button>
-              </form>
+              </form> */}
               <div
                 className={`form-check form-switch mx-3 text-${
                   props.mode === "light" ? "dark" : "light"
